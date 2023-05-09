@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teclas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="teclado">
+        <div class="Linha1">
+            <button>Esc</button>
+        </div>
+        <br>
+        <div class="Linha2">
+            <button>~<br>`</button>
+            <button>!<br>1</button>
+            <button>@<br>2</button>
+            <button>#<br>3</button>
+            <button>$<br>4</button>
+            <button>%<br>5</button>
+            <button>¨<br>6</button>
+            <button>&<br>7</button>
+            <button>*<br>8</button>
+            <button>(<br>9</button>
+            <button>)<br>0</button>
+            <button>_<br>-</button>
+            <button>+<br>=</button>
+            <button style="font-size: 8px;">backspace</button>
+        </div>
+        <br> 
+        <div class="Linha3">
+            <button>tab</button>
+            <button>q</button>
+            <button>w</button>
+            <button>e</button>
+            <button>r</button>
+            <button>t</button>
+            <button>t</button>
+            <button>y</button>
+            <button>u</button>
+            <button>i</button>
+            <button>o</button>
+            <button>p</button>
+            <button>`<br>´</button>
+            <button>{<br>[</button>
+            <button>}<br>]</button>
+            <button>|<br>\</button>
+        </div>
+        <br>
+        <div class="Linha4">
+            <button>Caps Lock</button>
+            <button>a</button>
+            <button>s</button>
+            <button>d</button>
+            <button>f</button>
+            <button>g</button>
+            <button>h</button>
+            <button>j</button>
+            <button>k</button>
+            <button>l</button>
+            <button>ç</button>
+            <button>:<br>;</button>
+            <button>"<br>'</button>
+            <button>Enter</button>
+        </div>
+        <br>
+        <div class="Linha5">
+            <button>Shift</button>
+            <button>z</button>
+            <button>x</button>
+            <button>c</button>
+            <button>v</button>
+            <button>b</button>
+            <button>n</button>
+            <button>m</button>
+            <button><<br>,</button>
+            <button>><br>.</button>
+            <button>?<br>/</button>
+            <button>shift</button>
+        </div>
+        <br>
+        <div class="Linha6">
+            <button>ctrl</button>
+            <button>alt</button>
+            <br> 
+            <button class="espaço">&nbsp</button>
+            <button>alt</button>
+            <button>ctrl</button>
+            <div class="setas">
+            <button><</button>
+            <div class="Setas"><button>^</button><button>v</button></div>
+            <button>></button>
+            </div>
+        </div>
+    </div>
+   
+
+
+
+</body>
+
+<script>
+    
+document.onkeydown = Pega_Tecla;
+
+function Pega_Tecla(e) 
+{	
+    e = e || window.event;
+
+    tecla = e.keyCode;
+    console.log(tecla); // MOSTRA O CÓDIGO DA TECLA PRESSIONADA
+
+    
+
+
+
+}
+</script>
+
+</html>
