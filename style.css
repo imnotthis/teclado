@@ -7,7 +7,11 @@ body{
 .teclado{
     justify-content: center;
     width: 600px;
-    height: 600px;
+    height: 320px;
+    border-radius: 15px;
+    background-color: #a28cb8;
+    position: absolute;
+    top: 200px;
 }
 button {
     width: 70px;
@@ -23,7 +27,7 @@ button {
    
    button:hover {
     letter-spacing: 3px;
-    background-color: hsl(261deg 80% 48%);
+    background-color: #5d18dc;
     color: hsl(0, 0%, 100%);
     box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
    }
@@ -83,8 +87,8 @@ a{
     height: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: end;
+    justify-content: space-between;
 }
 .Setas{
     display: flex;
@@ -94,4 +98,3 @@ a{
     width: 70px;
     height: 20px;
 }
-
